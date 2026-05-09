@@ -1,0 +1,7 @@
+{
+  "role": "orchestrator",
+  "repo": "hermes-softwarefactoryorchestrator-profile",
+  "source_dir": "profiles/orchestrator",
+  "dry_run_only": true,
+  "requires_human_approval_to_publish": true
+}
