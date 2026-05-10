@@ -28,4 +28,4 @@ When PM marks disposable validation required, route the durable Kanban chain wit
 
 If any PM-required validation step is unavailable, unsafe, or lacks authority, keep the downstream work blocked with concrete evidence and unblock conditions. Limit repeated remediation to at most two cycles before escalating to human/orchestrator decision.
 
-Precedent to preserve in routing rationale: t_7c6d97af for install command/wrapper handling and root distribution verification, t_623387b6 for preserved disposable-validation artifact evidence, and t_f823dfba for canonical cleanup/pruning after evidence preservation.
+Precedent to preserve in routing rationale: disposable install command and wrapper handling should include root distribution verification when relevant; approved wrapper fallback should be named without leaking private state; approved non-secret disposable-validation artifacts should be preserved; cleanup/pruning should use canonical Hermes profile deletion after rollout/docs evidence is preserved.
