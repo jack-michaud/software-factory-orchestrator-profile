@@ -7,7 +7,7 @@ source:
   type: monorepo-generated
   monorepo: software-factory-profiles
   role: orchestrator
-  generated_repo: hermes-softwarefactoryorchestrator-profile
+  generated_repo: software-factory-orchestrator-profile
 distribution_owned:
   - README.md
   - SOUL.md
